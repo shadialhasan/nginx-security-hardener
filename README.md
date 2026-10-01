@@ -3,10 +3,10 @@
 > **Topics:** `nginx` `security-hardening` `tls13` `hsts` `rate-limiting` `devops` `sysadmin` `ssl-certificate`
 
 
-[![Release](https://img.shields.io/badge/Release-v1.0.0-blue.svg)](https://github.com/MobileConduit/nginx-security-hardener/releases/tag/v1.0.0)
+[![Release](https://img.shields.io/badge/Release-v1.0.0-blue.svg)](https://github.com/shadialhasan/nginx-security-hardener/releases/tag/v1.0.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Security: Mozilla Modern](https://img.shields.io/badge/Security-A%2B%20SSL%20Grade-brightgreen.svg)](https://github.com/MobileConduit)
-[![CI/CD Pipeline](https://github.com/MobileConduit/nginx-security-hardener/actions/workflows/ci.yml/badge.svg)](https://github.com/MobileConduit/nginx-security-hardener/actions)
+[![Security: Mozilla Modern](https://img.shields.io/badge/Security-A%2B%20SSL%20Grade-brightgreen.svg)](https://github.com/shadialhasan)
+[![CI/CD Pipeline](https://github.com/shadialhasan/nginx-security-hardener/actions/workflows/ci.yml/badge.svg)](https://github.com/shadialhasan/nginx-security-hardener/actions)
 
 An automated enterprise Nginx virtual host generator enforcing modern cryptographic standards (TLS 1.3, Mozilla modern cipher suites, HSTS Preload), sliding-window rate limiting zones, buffer overflow mitigation, clickjacking deterrence, and strict Content-Security-Policy.
 
@@ -64,7 +64,7 @@ sequenceDiagram
 ## ⚙️ Installation & Setup
 
 ```bash
-git clone https://github.com/MobileConduit/nginx-security-hardener.git
+git clone https://github.com/shadialhasan/nginx-security-hardener.git
 cd nginx-security-hardener
 pip install -r requirements.txt
 ```
@@ -106,7 +106,7 @@ python -m unittest discover -s tests -p "test_*.py" -v
 - **Email:** [mhd.shadi.alhasan@gmail.com](mailto:mhd.shadi.alhasan@gmail.com)  
 - **Phone / WhatsApp:** [+963934005922](tel:+963934005922)  
 - **Location:** Damascus, Syria  
-- **GitHub:** [MobileConduit](https://github.com/MobileConduit)  
+- **GitHub:** [shadialhasan](https://github.com/shadialhasan)  
 
 ---
 
