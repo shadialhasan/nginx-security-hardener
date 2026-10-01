@@ -6,7 +6,11 @@ Author: Eng. MHD. Shadi AL-Hasan <mhd.shadi.alhasan@gmail.com>
 
 import unittest
 import tempfile
+import sys
 from pathlib import Path
+
+# Add parent directory to sys.path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from hardener import (
     generate_nginx_config,
