@@ -1,5 +1,6 @@
 # 🔒 nginx-security-hardener
 
+[![Release](https://img.shields.io/badge/Release-v1.0.0-blue.svg)](https://github.com/MobileConduit/nginx-security-hardener/releases/tag/v1.0.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Security: Mozilla Modern](https://img.shields.io/badge/Security-A%2B%20SSL%20Grade-brightgreen.svg)](https://github.com/MobileConduit)
 [![CI/CD Pipeline](https://github.com/MobileConduit/nginx-security-hardener/actions/workflows/ci.yml/badge.svg)](https://github.com/MobileConduit/nginx-security-hardener/actions)
@@ -55,7 +56,17 @@ sequenceDiagram
 
 ---
 
-## 🚀 Quick Run
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+git clone https://github.com/MobileConduit/nginx-security-hardener.git
+cd nginx-security-hardener
+pip install -r requirements.txt
+```
+
+## 🚀 Usage & Instructions
 
 1. Copy environment example:
 ```bash
