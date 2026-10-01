@@ -111,6 +111,7 @@ def generate_nginx_config(
         )
 
     rate_limit_section = f"\n# Rate Limit Zone Allocation\n{zone_def}\n" if zone_def else ""
+    loc_limit_line = f"{loc_limit}\n" if loc_limit else ""
 
     config = f"""# ==============================================================================
 # Hardened Nginx Virtual Host for: {domain}
@@ -154,7 +155,7 @@ server {{
     large_client_header_buffers 4 8k;
 
     location / {{
-{f'{loc_limit}\n' if loc_limit else ''}        proxy_pass http://127.0.0.1:{port};
+{loc_limit_line}        proxy_pass http://127.0.0.1:{port};
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
