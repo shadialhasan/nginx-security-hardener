@@ -1,0 +1,13 @@
+{
+  "description": "Automated generator for TLS 1.3 hardened Nginx virtual hosts with Mozilla modern SSL and rate-limiting",
+  "topics": [
+    "nginx",
+    "security-hardening",
+    "tls13",
+    "hsts",
+    "rate-limiting",
+    "devops",
+    "sysadmin",
+    "ssl-certificate"
+  ]
+}

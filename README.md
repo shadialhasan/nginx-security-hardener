@@ -1,5 +1,8 @@
 # 🔒 nginx-security-hardener
 
+> **Topics:** `nginx` `security-hardening` `tls13` `hsts` `rate-limiting` `devops` `sysadmin` `ssl-certificate`
+
+
 [![Release](https://img.shields.io/badge/Release-v1.0.0-blue.svg)](https://github.com/MobileConduit/nginx-security-hardener/releases/tag/v1.0.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Security: Mozilla Modern](https://img.shields.io/badge/Security-A%2B%20SSL%20Grade-brightgreen.svg)](https://github.com/MobileConduit)
